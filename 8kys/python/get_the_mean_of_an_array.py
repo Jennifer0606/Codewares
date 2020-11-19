@@ -6,7 +6,7 @@ Return the average of the given array rounded down to its nearest integer.
 
 The array will never be empty.
 """
-
+# test
 
 # solution1
 def get_average(marks):
