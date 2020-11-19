@@ -6,24 +6,24 @@ Return the average of the given array rounded down to its nearest integer.
 
 The array will never be empty.
 """
-# test
 
-# solution1
+
+# My answer
 def get_average(marks):
     return int(sum(marks) / len(marks))
 #
-# solution2
+# solution1
 # def get_average(marks):
 #     return sum(marks) // len(marks)
 #
-# solution3
+# solution2
 # import math
 #
 #
 # def get_average(marks):
 #     return math.floor(sum(marks) // len(marks))
 #
-# Solution4
+# Solution3
 # import math
 # import numpy
 #

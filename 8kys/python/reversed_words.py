@@ -8,14 +8,14 @@ reverseWords("The greatest victory is that which requires no battle")
 """
 
 
-# solution1
+# My answer
 def reverseWords(s):
     a = s.split(" ")
     a.reverse()
     return " ".join(a)
 
 
-# solution2
+# solution1
 # def reverseWords(s):
 #     return " ".join(s.split(" ")[::-1])
 
