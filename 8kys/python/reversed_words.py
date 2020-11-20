@@ -15,7 +15,7 @@ def reverseWords(s):
     return " ".join(a)
 
 
-# solution1
+# Best Solution
 # def reverseWords(s):
 #     return " ".join(s.split(" ")[::-1])
 
