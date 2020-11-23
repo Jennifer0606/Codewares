@@ -9,3 +9,8 @@ for i in range((len(input_arr) - len(new_arr))):
 
 print(new_arr)
 
+
+def capitalize_word(word):
+    return word.capitalize()
+
+capitalize_word("jennifer")
