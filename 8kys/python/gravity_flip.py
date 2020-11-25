@@ -22,7 +22,7 @@ flip('L', [1, 4, 5, 3, 5])  =>  [5, 5, 4, 3, 1]
 """
 
 
-# My answer
+# My solution
 def flip(d, a):
     if d == "R":
         a.sort()
@@ -31,7 +31,7 @@ def flip(d, a):
     return a
 
 
-# Best practice
+# Best solution
 # def flip(d,a):
 #     return sorted(a, reverse=d=='L')
 #

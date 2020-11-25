@@ -10,11 +10,11 @@ name + " does not play banjo"
 """
 
 
-# my answer
+# my solution
 def areYouPlayingBanjo(name):
     return "{} plays banjo".format(name) if name.lower()[0] == "r" else "{} does not play banjo".format(name)
 
-# best practices
+# best solution
 # def areYouPlayingBanjo(name):
 #     return name + (' plays' if name[0].lower() == 'r' else ' does not play') + " banjo"
 

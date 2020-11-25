@@ -16,6 +16,7 @@ time = 11.8--> litres = 5
 """
 
 
+# my solution
 def litres(time):
     water = time / 2
     return int(water)

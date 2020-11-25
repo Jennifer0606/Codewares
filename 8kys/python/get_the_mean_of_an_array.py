@@ -8,7 +8,7 @@ The array will never be empty.
 """
 
 
-# My answer
+# My solution
 def get_average(marks):
     return int(sum(marks) / len(marks))
 #

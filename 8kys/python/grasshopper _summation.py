@@ -12,7 +12,7 @@ summation(8) -> 36
 """
 
 
-# my answer
+# my solution
 def summation(num):
     ans = 0
     for i in range(num):
@@ -20,7 +20,7 @@ def summation(num):
     return ans
 
 
-# best practices
+# best solution
 # def summation(num):
 #     return sum(range(num + 1))
 

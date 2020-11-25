@@ -8,7 +8,7 @@ invert([]) == []
 """
 
 
-# my answer
+# my solution
 def invert(lst):
     new_lst = []
     for i in range(len(lst)):
@@ -19,7 +19,7 @@ def invert(lst):
     return new_lst
 
 
-# best practices
+# best solution
 # def invert(lst):
 #     return [-x for x in lst]
 

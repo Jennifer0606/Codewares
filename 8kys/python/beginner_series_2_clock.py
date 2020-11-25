@@ -9,14 +9,14 @@ past(0, 1, 1) == 61000
 """
 
 
-# my answer
+# my solution
 def past(h, m, s):
     h = h * 60 * 60
     m = m * 60
     return (h + m + s) * 1000
 
 
-# Best Practice
+# Best solution
 # def past(h, m, s):
 #     return (3600 * h + 60 * m + s) * 1000
 

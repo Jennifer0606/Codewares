@@ -6,12 +6,12 @@ P.S. Each array includes only integer numbers. Output is a number too.
 """
 
 
-# my answer
+# my solution
 def array_plus_array(arr1, arr2):
     return sum(arr1) + sum(arr2)
 
 
-# Best practice
+# Best solution
 # def array_plus_array(arr1, arr2):
 #     return sum(arr1 + arr2)
 

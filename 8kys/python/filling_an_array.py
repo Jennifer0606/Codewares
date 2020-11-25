@@ -10,7 +10,7 @@ arr(5) // => [0,1,2,3,4]
 """
 
 
-# my answer
+# my solution
 def arr(n=0):
     array = []
     while n == 0:
@@ -20,7 +20,7 @@ def arr(n=0):
     return array
 
 
-# Best practice
+# Best solution
 # def arr(n=0):
 #     return list(range(n))
 

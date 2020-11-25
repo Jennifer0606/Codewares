@@ -8,7 +8,7 @@ SQL: return results in a column named greeting
 """
 
 
-# my answer
+# my solution
 def greet(name):
     return "Hello, {} how are you doing today?".format(name)
 
