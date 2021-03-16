@@ -54,7 +54,9 @@ Remember , In Even array size , The minimum element moved to (n-1)/2 index (cons
 
 
 def pendulum(values):
-
+    db = {}
+    for i in range(len(values)):
+        db.keys(i)
     values.sort()
     values.reverse()
     print(values)
