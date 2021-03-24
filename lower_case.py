@@ -1,3 +1,3 @@
-string = "Count of positives / sum of negatives"
+string = "Do I get a bonus?"
 
 print(string.lower().replace(" ", "_"))
