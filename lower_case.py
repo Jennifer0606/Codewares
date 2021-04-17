@@ -1,3 +1,3 @@
-string = "Count of positives / sum of negatives"
+string = "Even or Odd"
 
 print(string.lower().replace(" ", "_"))
