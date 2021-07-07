@@ -15,7 +15,7 @@ For calculating the average point you may add your point to the given array!
 
 # my solution
 def better_than_average(class_points, your_points):
-    return True if your_points > (sum(class_points) / len(class_points)) else False
+    return your_points > (sum(class_points) / len(class_points))
 
 
 # best solution

@@ -6,10 +6,7 @@ Given an array of integers as strings and numbers, return the sum of the array v
 
 # my solution
 def sum_mix(arr):
-    result = 0
-    for i in range((len(arr))):
-        result += int(arr[i])
-    return result
+    return sum(int(arr[i]) for i in range((len(arr))))
 
 
 # best soultion

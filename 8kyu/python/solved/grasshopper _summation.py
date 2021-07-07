@@ -14,10 +14,7 @@ summation(8) -> 36
 
 # my solution
 def summation(num):
-    ans = 0
-    for i in range(num):
-        ans += (i + 1)
-    return ans
+    return sum((i + 1) for i in range(num))
 
 
 # best solution

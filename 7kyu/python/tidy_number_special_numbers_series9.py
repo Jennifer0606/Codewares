@@ -36,10 +36,7 @@ The number's digits {2 , 3, 3, 5} are in non-Decreasing Order , Note 3 <= 3
 # my solution
 def tidyNumber(n):
     arr = list(map(int, str(n)))
-    for i in range(len(arr)-1):
-        if arr[i+1] < arr[i]:
-            return False
-    return True
+    return all(arr[i+1] >= arr[i] for i in range(len(arr)-1))
 
 
 # best solution

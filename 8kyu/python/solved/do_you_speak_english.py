@@ -12,7 +12,7 @@ Return value as boolean values, true for the string to contains "English", false
 
 # my solution
 def sp_eng(sentence):
-    return True if "english" in sentence.lower() else False
+    return "english" in sentence.lower()
 
 
 # best solution

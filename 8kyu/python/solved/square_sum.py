@@ -8,10 +8,7 @@ For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 
 # My solution
 def square_sum(numbers):
-    answer = 0
-    for i in range(len(numbers)):
-        answer = answer + (numbers[i] ** 2)
-    return answer
+    return sum(numbers[i] ** 2 for i in range(len(numbers)))
 
 
 # solution1

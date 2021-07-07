@@ -20,10 +20,7 @@ Output: 1,2,3,4,5,6,7,8
 def pipe_fix(nums):
     mix_num = max(nums)
     min_num = min(nums)
-    result = []
-    for i in range(min_num, mix_num + 1):
-        result.append(i)
-    return result
+    return [i for i in range(min_num, mix_num + 1)]
 
 
 # best soultion

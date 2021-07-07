@@ -1,9 +1,7 @@
 """
 reversal X and Y without use temp
 """
-string = "XY"
-result = ""
-for i in string[::-1]:
-    result += i
 
+string = "XY"
+result = "".join(string[::-1])
 print(result)
