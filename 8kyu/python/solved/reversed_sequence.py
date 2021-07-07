@@ -8,9 +8,7 @@ Example : n=5 >> [5,4,3,2,1]
 
 # my solution
 def reverse_seq(n):
-    res = []
-    for i in range(1, n + 1):
-        res.append(i)
+    res = [i for i in range(1, n + 1)]
     res.reverse()
     return res
 

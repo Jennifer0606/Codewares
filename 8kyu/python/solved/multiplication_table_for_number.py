@@ -20,9 +20,11 @@ P. S. You can use \n in string to jump to the next line.
 
 # my solution
 def multi_table(number):
-    result = []
-    for i in range(1, 11):
-        result.append(''.join("{} * {} = {}").format(i, number, i * number))
+    result = [
+        ''.join("{} * {} = {}").format(i, number, i * number)
+        for i in range(1, 11)
+    ]
+
     return "\n".join(result)
 
 

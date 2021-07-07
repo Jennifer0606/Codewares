@@ -13,7 +13,7 @@ setAlarm(true, false) -> true
 
 # my solution
 def set_alarm(employed, vacation):
-    return True if employed is True and vacation is False else False
+    return employed is True and vacation is False
 
 
 # Best solution

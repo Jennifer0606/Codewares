@@ -46,7 +46,7 @@ def jumping_number(number):
 
     number = [int(x) for x in str(number)]
     for i in range(len(number)-1):
-        if number[i+1] != number[i] + 1 and number[i+1] != number[i] - 1:
+        if number[i + 1] not in [number[i] + 1, number[i] - 1]:
             return "Not!!"
     return "Jumping!!"
 

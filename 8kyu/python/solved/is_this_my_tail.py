@@ -12,7 +12,7 @@ For Haskell, body has the type of String and tail has the type of Char. For Go, 
 
 # my solution
 def correct_tail(body, tail):
-    return True if tail == body[-1] else False
+    return tail == body[-1]
 
 
 # best solution

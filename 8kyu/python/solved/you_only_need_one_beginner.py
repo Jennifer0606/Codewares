@@ -10,7 +10,7 @@ Return true if the array contains the value, false if not.
 
 # my solution
 def check(seq, elem):
-    return True if elem in seq else False
+    return elem in seq
 
 
 # best solution
