@@ -1,3 +1,3 @@
-string = "Do I get a bonus?"
+string = "Convert number to reversed array of digits"
 
 print(string.lower().replace(" ", "_"))

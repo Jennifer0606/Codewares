@@ -8,8 +8,11 @@ the washing machine will use 10% more water (multiplicative) to clean.
 For example, if the amount of clothes is 10, the amount of water it requires is 5 and the load is 14,
 then you need 5 * 1.1 ^ (14 - 10) amount of water.
 
-Write a function howMuchWater (JS)/how_much_water (Python and Ruby) to work out how much water is needed if you have a clothes amount of clothes.
-The function will accept 3 parameters - howMuchWater(water, load, clothes) / how_much_water(water, load, clothes) / how_much_water(water, max_load, clothes)
+Write a function howMuchWater (JS)
+/how_much_water (Python and Ruby) to work out how much water is needed if you have a clothes amount of clothes.
+The function will accept 3 parameters - howMuchWater(water, load, clothes)
+/ how_much_water(water, load, clothes)
+/ how_much_water(water, max_load, clothes)
 
 My washing machine is an old model that can only handle double the amount of load (or max_load).
 If the amount of clothes is more than 2 times the standard amount of load (max_load))  # result return 'Too much clothes'.

@@ -7,8 +7,10 @@ If they are, change the array value to a string of that vowel.
 Return the resulting array.
 """
 
+
 def is_vow(inp):
     return [chr(i) if chr(i) in 'aeiou' else i for i in inp]
+
 
 # def is_vow(inp):
 #     for i, v in enumerate(inp):
