@@ -15,14 +15,14 @@ def ensure_question(s):
     return "?"
 
 
-# best solution
-def ensure_question(s):
-    return s.rstrip('?') + '?'
-
-
-# other solution
-def ensure_question(s):
-    return s if s.endswith('?') else s + '?'
+# # best solution
+# def ensure_question(s):
+#     return s.rstrip('?') + '?'
+#
+#
+# # other solution
+# def ensure_question(s):
+#     return s if s.endswith('?') else s + '?'
 
 
 print(ensure_question(""))  # return "?"

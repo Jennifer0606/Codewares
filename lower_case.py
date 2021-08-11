@@ -1,3 +1,3 @@
-string = "Convert number to reversed array of digits"
+string = "Is it a palindrome"
 
 print(string.lower().replace(" ", "_"))
