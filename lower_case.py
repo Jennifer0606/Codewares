@@ -1,3 +1,3 @@
-string = "Is it a palindrome"
+string = "Generate range of integers"
 
 print(string.lower().replace(" ", "_"))
