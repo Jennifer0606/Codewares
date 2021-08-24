@@ -30,9 +30,9 @@ def generate_range(min, max, step):
     return res
 
 
-# best solution
-def generate_range(min, max, step):
-    return list(range(min, max + 1, step))
+# # best solution
+# def generate_range(min, max, step):
+#     return list(range(min, max + 1, step))
 
 
 print(generate_range(1, 10, 1))  # return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
