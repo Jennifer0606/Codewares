@@ -33,6 +33,23 @@ for i in range(0, len(s)):
 A range function is used to loop over some length:
 range (0, 5)
 
-Here, the range loops over 0 to 4.5  is excluded.
+Here, the range loops over 0 to 4. 5 is excluded.
 """
 
+
+def count_substring(string, sub_string):
+    sub_len = len(sub_string)
+    count = 0
+    for i in range(len(string)):
+        if string[i:i+sub_len] == sub_string:
+            count += 1
+    return count
+
+
+print(count_substring("ABCDCDC", "CDC"))
+# if __name__ == '__main__':
+#     string = input().strip()
+#     sub_string = input().strip()
+#
+#     count = count_substring(string, sub_string)
+#     print(count)
